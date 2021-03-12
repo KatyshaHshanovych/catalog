@@ -1,0 +1,230 @@
+.main-block-content {
+  width: 1263px;
+  margin: 0 auto;
+}
+
+.block-header {
+  height: 121px;
+}
+
+.central-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+.central-header__nameWebsite {
+  font-size: 48px;
+  font-weight: bold;
+}
+.central-header__nameWebsite:hover {
+  color: #999997;
+}
+.central-header__nameWebsite2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+.central-header__nameWebsite2:hover {
+  color: #999997;
+}
+.central-header__linkNavMenu {
+  display: flex;
+}
+.central-header__socialNetwork {
+  display: flex;
+}
+.central-header__iconLogin {
+  display: flex;
+  align-items: center;
+}
+.central-header__navMenu {
+  color: black;
+  font-weight: bold;
+}
+.central-header__navMenu:hover {
+  color: #999997;
+}
+.central-header__textLogin {
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+.central-header__blockNavMenu {
+  margin-right: 25px;
+}
+.central-header__allIcons {
+  margin-right: 10px;
+}
+.central-header__allIcons:last-child {
+  margin-right: 0;
+}
+
+.block-grid-content {
+  width: 1237px;
+  display: grid;
+  grid-template-columns: 309px 309px 309px 309px;
+  margin: 0 auto;
+}
+
+.bag-one-block {
+  height: 461px;
+}
+.bag-one-block:hover .bag-one-block__img1 {
+  display: none;
+}
+.bag-one-block:hover .bag-one-block__img2 {
+  display: block;
+}
+.bag-one-block:hover .bag-one-block__buttonCart {
+  display: block;
+}
+.bag-one-block:hover .bag-one-block__linkImg {
+  display: block;
+  cursor: pointer;
+}
+.bag-one-block:hover .bag-one-block__buttonCart {
+  display: block;
+  cursor: pointer;
+}
+.bag-one-block__topBlock {
+  width: 309px;
+  height: 313px;
+}
+.bag-one-block__img1 {
+  width: 309px;
+}
+.bag-one-block__img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  width: 309px;
+  display: none;
+}
+.bag-one-block__linkImg {
+  background: #ffffffd9;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  margin-top: -45px;
+  padding: 15px;
+  width: 309px;
+  display: none;
+}
+.bag-one-block__horizontalLine {
+  width: 23px;
+  border: none;
+  height: 1.3px;
+  background: black;
+}
+.bag-one-block__downBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+.bag-one-block__linkProduct {
+  color: black;
+  font-weight: bold;
+}
+.bag-one-block__prize {
+  font-weight: bold;
+}
+.bag-one-block__buttonCart {
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px 70px;
+  margin-top: 15px;
+  display: none;
+}
+
+.big-block-about__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0px;
+}
+.big-block-about__title {
+  font-size: 40px;
+}
+.big-block-about__description {
+  text-align: center;
+  font-size: 26px;
+  margin-top: 25px;
+}
+
+.footer {
+  background: black;
+  height: 491px;
+}
+
+.central-footer {
+  width: 784px;
+  margin: 0 auto;
+  height: 350px;
+}
+.central-footer__first {
+  display: flex;
+  justify-content: space-between;
+}
+.central-footer__links {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.central-footer__first {
+  padding-top: 65px;
+}
+.central-footer__secondBlock {
+  margin: 70px 0px;
+}
+.central-footer__link1 {
+  color: white;
+  font-size: 18px;
+}
+.central-footer__email {
+  border-bottom: 2px solid white;
+  width: 694px;
+  padding: 10px 55px;
+  background: none;
+  color: white;
+  font-weight: bold;
+}
+.central-footer__email::-webkit-input-placeholder {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.central-footer__subscribe {
+  background: #FFFFFF;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 32px;
+  margin-left: 16px;
+  position: absolute;
+}
+.central-footer__subscribe:hover {
+  background: #0E3E9B;
+  color: white;
+}
+.central-footer__emailLabel {
+  color: gray;
+  position: absolute;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: -28px;
+  margin-left: -2px;
+}
+.central-footer__third {
+  height: 200px;
+}
+
+.central-footer li {
+  padding-bottom: 10px;
+}
+.central-footer li:last-child {
+  padding-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
